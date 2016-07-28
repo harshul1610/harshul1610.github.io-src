@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Harshul Jain'
 SITENAME = u'Harshul Jain'
-SITEURL = 'https://harshul1610.github.io'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -12,7 +12,7 @@ TIMEZONE = 'Europe/Paris'
 
 DEFAULT_LANG = u'en'
 
-THEME = "pelican-themes/Flex"
+THEME = "theme/Flex"
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
