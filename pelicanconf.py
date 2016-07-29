@@ -25,12 +25,13 @@ SITESUBTITLE = 'Software Developer | Hardware Hacker'
 SITEDESCRIPTION = 'Connecting the world with Python.'
 
 SOCIAL = (('facebook', 'https://www.facebook.com/harshul.jain.7'),
-         ('github', 'https://github.com/harshul1610'),
-         ('google','https://plus.google.com/u/0/111412901938755370336/'),
-         ('twitter', 'https://twitter.com/harshulrobo'),
-         ('envelope-o', 'harshulrobo@gmail.com'),)
+          ('github', 'https://github.com/harshul1610'),
+          ('google', 'https://plus.google.com/u/0/111412901938755370336/'),
+          ('twitter', 'https://twitter.com/harshulrobo'),
+          ('envelope-o', 'harshulrobo@gmail.com'),)
 
 DISQUS_SITENAME = 'blog-harshuljain'
+DISPLAY_PAGES_ON_MENU=True
 
 DEFAULT_PAGINATION = 10
 
