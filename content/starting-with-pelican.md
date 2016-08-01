@@ -26,10 +26,11 @@ always hit on [here](http://pelican-cn.readthedocs.io). For now, Let us see how 
 
 3. **Adding Content**: Since we have something working now, we will now focus on making content for our blog site. All
 the content related to the page is written in either in ``.md`` or ``.rst`` format under content directory of your project.
-So, for yo a blog on 'testing' we will make a testing.md file in content directory. If you don't understand what are .md
-files, you must google about it. It is markdown language, that you can write your content in form of. After writing the
+So, for a blog on ``testing`` we will make a ``testing.md`` file in ``content`` directory. If you do not understand what are ``.md``
+files, you must google about it. It is a markdown language, that you can write your content in form of. After writing the
 testing.md file run ``make html`` and ``make serve`` commands in terminal to update the html files and host those updated
-files on your local server.
+files on your local server. I will suggest writing the content in ``.md`` file than ``.rst`` file. ``.md`` files are pretty
+easier to create.
 
 4. **Writing [about me](harshul1610.github.io/pages/about-me.html#about-me) page**:
 For this at first put ``DISPLAY_PAGES_ON_MENU=True`` in ``pelicanconf.py`` file. This is the file where you will get all settings
@@ -38,9 +39,15 @@ be in hurry to view the about me page in web site, because we still have not cre
 To create 'aboutme.html' using ``make html`` you have to write your aboutme.md or ``aboutme.rst`` file and put it under pages directory
 in content directory. now run ``make html`` and ``make serve`` and view the updated page.
 
-5. **Social Buttons**: You can definitely add them just by putting ``SOCIAL = (('facebook', 'https://www.facebook.com/harshul.jain.7'),)``
+5. **Social Buttons**: You can definitely add them just by putting ``SOCIAL = (('facebook', url ),)``
  in ``pelicanconf.py``. For more social configurations, you have to check about that theme. Best way to get the info of that
  theme is github. Some themes don't have social media handling in them. But Flex does and that is why it is amazing.
+
+6. **Adding syntax highlighting**: For implementing the syntax highlighting in your blog, you just have to write your code
+snippet between two ``. Remember default pygment used is github, you can always change that. It depends
+on the theme you are using.
+
+I hope this gives you the quick start good enough to create your own blog and host it via github pages.
 
 
 
