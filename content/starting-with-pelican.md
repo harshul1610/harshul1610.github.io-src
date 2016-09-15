@@ -20,7 +20,7 @@ always hit on [here](http://pelican-cn.readthedocs.io). For now, Let us see how 
 
 2. **Adding Themes**: For this, you have to fork [Flex Theme](https://github.com/alexandrevicenzi/Flex/tree/608e6925ab629324e6cc9cff9b459d1bbad07e4a)
  in your project directory. Instructions are well written in Flex/README.md file by author. In your ``pelicanconf.py`` file
- put ``THEME = "~/Flex". Run ``make html`` and ``make serve``. view the updated page. By the way, even I'm using
+ put ``THEME = "~/Flex"``. Run ``make html`` and ``make serve``. view the updated page. By the way, even I'm using
  [Flex theme](https://github.com/alexandrevicenzi/Flex), it's responsive, mobile first and good looking.
  Don't thank me. Thank the [original author](https://travis-ci.org/alexandrevicenzi/Flex).
 
