@@ -25,11 +25,11 @@ always hit on [here](http://pelican-cn.readthedocs.io). For now, Let us see how 
  Don't thank me. Thank the [original author](https://travis-ci.org/alexandrevicenzi/Flex).
 
 3. **Adding Content**: Since we have something working now, we will now focus on making content for our blog site. All
-the content related to the page is written in either in ``.md`` or ``.rst`` format under content directory of your project.
-So, for a blog on ``testing`` we will make a ``testing.md`` file in ``content`` directory. If you do not understand what are ``.md``
+the content related to the page is written in either in .md or .rst format under content directory of your project.
+So, for a blog on ``testing`` we will make a ``testing.md`` file in ``content`` directory. If you do not understand what are .md
 files, you must google about it. It is a markdown language, that you can write your content in form of. After writing the
 testing.md file run ``make html`` and ``make serve`` commands in terminal to update the html files and host those updated
-files on your local server. I will suggest writing the content in ``.md`` file than ``.rst`` file. ``.md`` files are pretty
+files on your local server. I will suggest writing the content in .md file than .rst file. .md files are pretty
 easier to create.
 
 4. **Writing [about me](harshul1610.github.io/pages/about-me.html#about-me) page**:
