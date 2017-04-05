@@ -22,7 +22,7 @@ cat $HOME/.ssh/id_rsa.pub >> $HOME/.ssh/authorized_keys
 
 ***Installing hadoop***
 ```
-su hduser
+exit
 cd /usr/local
 sudo tar xzf hadoop-x.x.x.tar.gz
 sudo mv hadoop-x.x.x hadoop
@@ -37,7 +37,7 @@ nano .bashrc
 ```
 put the followign contents in the .bashrc file
 ```
-#HADOOP VARIABLES START
+# HADOOP VARIABLES START
 export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
 export PATH=$PATH:$JAVA_HOME/bin
 export HADOOP_HOME=/usr/local/hadoop
@@ -52,9 +52,8 @@ export HADOOP_COMMON_HOME=$HADOOP_HOME
 export HADOOP_HDFS_HOME=$HADOOP_HOME
 export YARN_HOME=$HADOOP_INSTALL
 export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native
-#export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
-#HADOOP VARIABLES END
-
+# export HADOOP_OPTS="-Djava.library.path=$HADOOP_HOME/lib"
+# HADOOP VARIABLES END
 ```
 
 ```
@@ -64,21 +63,21 @@ hadoop version
 
 ***hadoop-env.sh***
 ```
-su hduser
 cd
-sudo nano /usr/local/hadoop/etc/hadoop/hadoop-env.sh
+nano /usr/local/hadoop/etc/hadoop/hadoop-env.sh
 ```
 
 comment the original JAVA_HOME line and replace it by ``export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64``.
 
 ***core-site.xml***
 ```
-su hduser
+exit
 sudo mkdir -p /app/hadoop/tmp
 sudo chown hduser:hadoop /app/hadoop/tmp
 sudo chmod 750 /app/hadoop/tmp
+su hduser
 cd
-sudo nano /usr/local/hadoop/etc/hadoop/core-site.xml
+nano /usr/local/hadoop/etc/hadoop/core-site.xml
 ```
 Inside the <configuration>...</configuration> tags, put the following:
 ```
@@ -101,8 +100,7 @@ Inside the <configuration>...</configuration> tags, put the following:
 
 ***mapred-site.xml***
 ```
-su hduser
-sudo nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
+nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
 ```
 Inside the <configuration>...</configuration> tags, put the following:
 ```
@@ -119,8 +117,7 @@ Inside the <configuration>...</configuration> tags, put the following:
 
 ***hdfs-site.xml***
 ```
-su hduser
-sudo nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
+nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
 ```
 Inside the <configuration>...</configuration> tags, put the following:
 ```
@@ -136,12 +133,12 @@ Inside the <configuration>...</configuration> tags, put the following:
 
 ***Formatting the hdfs file system***
 ```
-/usr/local/hadoop/bin/hadoop namenode -format
+hadoop namenode -format
 ```
 
 ***Starting and stopping your single node cluster***
 ```
-/usr/local/hadoop/sbin/start-all.sh
-/usr/local/hadoop/bin/stop-all.sh
+start-all.sh
+stop-all.sh
 ```
 
