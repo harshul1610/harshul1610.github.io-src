@@ -11,4 +11,4 @@ About me
 
 > I have total of 2+ years of experience in Python and have learnt good amount of quirks using python.
 
-> `Resume<https://drive.google.com/open?id=0B9X4Tsx7WUvFX1lzQ1htX3dxTGM>`
+> `Resume <https://drive.google.com/open?id=0B9X4Tsx7WUvFX1lzQ1htX3dxTGM>`_
