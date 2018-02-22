@@ -1,4 +1,4 @@
-Title: Setting up hadoop
+Title: Setting up hadoop in Ubuntu
 date: 2017-04-02 19:23
 category: Hadoop
 tags: Hadoop, Blog, Environment setup
@@ -117,7 +117,7 @@ Inside the <configuration>...</configuration> tags, put the following:
 
 ***hdfs-site.xml***
 ```
-nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
+nano /usr/local/hadoop/etc/hadoop/hdfs-site.xml
 ```
 Inside the <configuration>...</configuration> tags, put the following:
 ```

@@ -1,21 +1,14 @@
 About me
 ########
 
-> **I am a developer:**
-      Who is motivated by negative feedback and boosted by the positive feedback.
+> I am a Python tutor, and active open source contributor and a philanthropist. 
 
-> **I am a developer:**
-      Who is a Not a pythonist or Java developer but a Programmer.
+> I do Code mentoring because I love to help people out within my areas of Expertise.
 
-> **I am a developer:**
-      Who loves to work freely across his tech stack.
+> I have won, and participated in couple hackathons. My projects can be viewed at https://github.com/harshul1610
 
-> **I am a developer:**
-      Who believes in Biology has strong bonding with object behaviour and computer algorithms. And this biology
-      can bring revolution in fastest Algorithms that are yet to be prepared.
+> I am an active Volunteer , Speaker at Python conferences and Meetups.
 
-> **I am a developer:**
-      Who is working hard just to save people lives because Apple watch is not sufficient enough to save someone.
+> I have total of 2+ years of experience in Python and have learnt good amount of quirks using python.
 
-
-My `Resume <https://drive.google.com/open?id=0B9X4Tsx7WUvFTTZwd0loNTdBMWM>`_
+> `Resume<https://drive.google.com/open?id=0B9X4Tsx7WUvFX1lzQ1htX3dxTGM>`

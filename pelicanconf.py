@@ -21,12 +21,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 SITETITLE = 'Harshul Jain'
-SITESUBTITLE = 'Software Developer | Hardware Hacker'
+SITESUBTITLE = 'Software Developer | Open Source Enthusiast'
 SITEDESCRIPTION = 'Connecting the world with Python.'
 
 SOCIAL = (('facebook', 'https://www.facebook.com/harshul.jain.7'),
           ('github', 'https://github.com/harshul1610'),
-          ('google', 'https://plus.google.com/u/0/111412901938755370336/'),
           ('twitter', 'https://twitter.com/harshulrobo'),
           ('envelope-o', 'harshulrobo@gmail.com'),)
 
