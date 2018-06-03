@@ -1,14 +1,12 @@
 About me
 ########
 
-> I am a Python tutor, and active open source contributor and a philanthropist. 
+> I am a Fullstack Python developer, and an active open source software enthusiast. 
 
-> I do Code mentoring because I love to help people out within my areas of Expertise.
+> I have a strong platform development experience using web frameworks such as django and flask.
 
-> I have won, and participated in couple hackathons. My projects can be viewed at https://github.com/harshul1610
+> I have strong skills into scientific computing and deep learning using numpy, scipy, pandas, statsmodels, matplotlib, tensorflow and keras.
 
-> I am an active Volunteer , Speaker at Python conferences and Meetups.
+> I am currently working as a Data science practitioner and Full stack python developer at Gemini Solutions Pvt. Ltd.
 
-> I have total of 2+ years of experience in Python and have learnt good amount of quirks using python.
-
-> `Resume <https://drive.google.com/open?id=11wDTkpNvIITDOTSbgBVzX7HR35Pv2LLW>`_
+> `Resume <https://drive.google.com/open?id=17rNk_KOKj8N-axXRt4iVJoK1eWoDBOrH>`_
