@@ -5,7 +5,7 @@ tags: Machine Learning, Python, Data Science, Deep Learning
 author: Harshul Jain
 excerpt: How to be a good data scientist.
 
-![How?](https://github.com/harshul1610/harshul1610.github.io/blob/master/images/HOW.jpg)
+![How?](https://raw.githubusercontent.com/harshul1610/harshul1610.github.io/master/images/HOW.jpg)
 
 The progress that machine learning has made in past decade strikes everyone as genuine and astounding. Tons of libraries, architectures and mathematical equations have been developed to support machine learning. Such a growth is attracting every developer. No matter even if he has been doing quantum computing, he might want to learn machine learning. It might generate some insightful prediction for him. But the most commonest question I face when I meet new developers is to do with getting started.
 
