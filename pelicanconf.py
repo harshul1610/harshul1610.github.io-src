@@ -21,13 +21,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 SITETITLE = 'Harshul Jain'
-SITESUBTITLE = 'Software Developer | Open Source Enthusiast'
+SITESUBTITLE = 'Software Developer | Open Source Contributor'
 SITEDESCRIPTION = 'Connecting the world with Python.'
 
 SOCIAL = (('facebook', 'https://www.facebook.com/harshul.jain.7'),
           ('github', 'https://github.com/harshul1610'),
-          ('twitter', 'https://twitter.com/harshulrobo'),
-          ('envelope-o', 'harshulrobo@gmail.com'),)
+          ('twitter', 'https://twitter.com/TheInfluencer13'),
+          ('envelope-o', 'https://drive.google.com/open?id=1ay4BCPval4VySsL4sGA-AGXDBLSSF0hu'),)
 
 DISQUS_SITENAME = 'blog-harshuljain'
 DISPLAY_PAGES_ON_MENU=True
